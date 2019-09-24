@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>users' dashboard</title>
+    <title>JavaScript Coding Exercises</title>
+    <style>
+        h3 {
+            font-size: 25px;
+            font-family: cursive;
+            color: royalblue;
+            border-bottom: 5px solid #444;
+            padding: 5px 0;
+        }
+        input {
+            padding: 15px 10px;
+            width: 50%;
+            background: rgba(1, 6, 22, 0.116);
+            border: none;
+            outline: none;
+            font-size: 20px;
+            border-bottom: 2px solid rgba(68, 68, 68, 0.493);
+            border-radius: 20px;
+        }
+        button {
+            background: royalblue;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 2px #444;
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="dashboard">
+        <h3>Computer Science Login</h3>
+        <div id="hide">
+            <input type="text" id="access">
+            <button onclick="access();">Login</button>
+        </div>
+        <p id="print" style="color: orangered;"></p>
+        <button onclick="reset()" id="reset" style="display: none;">Reset</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
