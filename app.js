@@ -15,7 +15,8 @@ function access(){
         document.getElementById('reset').style.display = 'block';
     }
     else {
-        alert('ACCESS ERROR - Contact Administrator!!!')
+        alert('ACCESS ERROR - Contact Administrator!!!')        
+        console.log('error!');
     }
 }
 
