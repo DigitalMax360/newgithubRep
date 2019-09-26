@@ -17,6 +17,7 @@ function access(){
     else {
         alert('ACCESS ERROR - Contact Administrator!!!')        
         console.log('error!');
+        console.log('authentication error');
     }
 }
 
